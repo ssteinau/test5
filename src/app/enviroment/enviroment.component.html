@@ -32,6 +32,8 @@
         [resizeEdges]="{ bottom: true }"
       ></div>
       <div class="enviroment-container">
+        <app-dashboard *ngIf="this.component === 'DashboardComponent'"
+        ></app-dashboard>
       </div>
     </div>
   </div>
